@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HPlussSportsApp.OrderForm">
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Style.Triggers>
+                    <Trigger TargetType="Entry" Property="Text" Value="0">
+                        <Setter Property="BackgroundColor" Value="Red"/>
+                    </Trigger>
+                </Style.Triggers>
+                <Setter Property="BackgroundColor" Value="Red"/>
+            </Style>
+            <Style TargetType="Label" x:Key="fancyText">
+                <Setter Property="TextColor" Value="Purple"/>
+            </Style>
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    <TabbedPage.Children>
+        <ContentPage Title="Order">
+            <Grid Padding="10,20" VerticalOptions="Start">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition>
+                        <ColumnDefinition.Width>
+                            <OnIdiom x:TypeArguments="GridLength" Desktop="6*" Tablet="4*" Phone="2*"/>
+                        </ColumnDefinition.Width>
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Text="Product: " Style="{x:StaticResource Key=fancyText}"/>
+                <Label Text="{Binding ProductName}" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+                <Label Text="Quantity:" Grid.Row="1"/>
+                <Entry Text="{Binding Path=Quantity, Mode=TwoWay}" Grid.Row="1" Grid.Column="1"/>
+                <Stepper Value="{Binding Path=Quantity, Mode=TwoWay}" Grid.Row="1" Grid.Column="2"/>
+                <Button Text="Place Order" Clicked="Handle_Clicked" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Center"/>
+            </Grid>
+        </ContentPage>
+        <ContentPage Title="History"></ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

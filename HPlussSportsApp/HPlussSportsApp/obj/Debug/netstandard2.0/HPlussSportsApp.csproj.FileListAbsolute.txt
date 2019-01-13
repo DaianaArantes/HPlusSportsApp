@@ -1,0 +1,14 @@
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\bin\Debug\netstandard2.0\HPlussSportsApp.deps.json
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\bin\Debug\netstandard2.0\HPlussSportsApp.dll
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\bin\Debug\netstandard2.0\HPlussSportsApp.pdb
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\ProductDetail.xaml.g.cs
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\HPlussSportsApp.csproj.CoreCompileInputs.cache
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\HPlussSportsApp.AssemblyInfoInputs.cache
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\HPlussSportsApp.AssemblyInfo.cs
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\HPlussSportsApp.dll
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\HPlussSportsApp.pdb
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\HPlussSportsApp.csprojAssemblyReference.cache
+C:\Users\daian\OneDrive\Área de Trabalho\HPlussSportsApp\HPlussSportsApp\HPlussSportsApp\obj\Debug\netstandard2.0\OrderForm.xaml.g.cs
